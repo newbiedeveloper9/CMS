@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
+using AutoMapper;
+using AutoMapper.Configuration.Annotations;
 
 namespace Cms.Domain.Entities
 {
@@ -11,6 +14,6 @@ namespace Cms.Domain.Entities
         public string Slug { get; set; }
         public Category Category { get; set; }
         public int CategoryId { get; set; }
-
+        public string EncodedText { get; set; }
     }
 }

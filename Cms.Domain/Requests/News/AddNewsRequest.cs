@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using AutoMapper;
+using AutoMapper.Configuration.Annotations;
 using Cms.Domain.Entities;
 
 namespace Cms.Domain.Requests.News

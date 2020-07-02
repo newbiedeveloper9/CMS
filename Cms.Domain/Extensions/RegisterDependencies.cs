@@ -16,6 +16,7 @@ namespace Cms.Domain.Extensions
 {
     public static class RegisterDependencies
     {
+
         public static IServiceCollection BuildDomainDependencies(this IServiceCollection services)
         {
             return services.AddServices()
