@@ -1,6 +1,6 @@
 # CMS
 
-Main project goal of the project is to present high quality code written by me. Also I believe that I can improve in many ways by maintaining an existing project.
+Main goal of the project is to present high quality code written by me. Also I believe that I can improve in many ways by maintaining an existing project.
 
 ## Project Structure
 
