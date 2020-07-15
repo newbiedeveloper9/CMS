@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoFixture" Version="4.12.0" />
-    <PackageReference Include="AutoFixture.AutoMoq" Version="4.12.0" />
-    <PackageReference Include="AutoFixture.Xunit2" Version="4.12.0" />
-    <PackageReference Include="AutoMapper" Version="10.0.0" />
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
     <PackageReference Include="JetBrains.dotCover.CommandLineTools" Version="2020.2.0-eap05">
       <PrivateAssets>all</PrivateAssets>
@@ -31,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cms.Domain\Cms.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Cms.Infrastructure\Cms.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
